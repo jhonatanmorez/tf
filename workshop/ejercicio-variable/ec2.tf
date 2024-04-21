@@ -7,3 +7,4 @@ resource "aws_instance" "vm_instance_imp" {
     Name = "mi-servidor-tf-3"
   }
 }
+
