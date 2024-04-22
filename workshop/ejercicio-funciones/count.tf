@@ -1,6 +1,6 @@
 resource "aws_iam_user" "users" {
   count = length(var.user_names)
-  name = var.user_names[count.index]
+  name  = var.user_names[count.index]
   tags = {
     Name = var.user_names[count.index]
   }
